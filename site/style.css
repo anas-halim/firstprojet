@@ -1,0 +1,139 @@
+body{
+    box-sizing: border-box;
+    background: url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=600) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}   
+h1{
+    text-align: center;
+    margin-bottom: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/*.row div {
+    width: 30%;
+    border: 2px solid black;
+    margin-right: 15px;
+    
+}*/
+.row #colone1 {
+    width: 30%;
+    background-clip: padding-box;
+    padding: 0px 0px 30px 30px;
+    background: rgba(128, 128, 128, 0.728);
+    text-align:right;
+    text-decoration: none;
+    border: 2px solid #00431c;
+    border-radius: 5px;
+    margin-right: 40px;
+    
+    
+}
+.row #colone2 {
+    width: 30%;
+    background-clip: padding-box;
+    padding: 0px 0px 30px 30px;
+    background:rgba(128, 128, 128, 0.728);;
+    text-align:right;
+    text-decoration: none;
+    border: 2px solid #00431c;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+.row #colone3 {
+    width: 30%;
+    background-clip: padding-box;
+    padding: 0px 0px 30px 30px;
+    background: rgba(128, 128, 128, 0.728);
+    text-align:right;
+    text-decoration: none;
+    border: 2px solid #00431c;
+    border-radius: 5px;
+}
+
+.text{
+    text-align: left;
+    font-size: 15px;
+    margin-top: 10px;
+    color:rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.button{
+    font-size: 21px;
+    text-decoration: none;
+    padding: 2px;
+    color: #fff;
+    border: 1px solid #00431c;
+    border-radius:2px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+#colone1 .button{
+    background-color: #75c0e0;
+}
+
+#colone2 .button{
+    background-color: #fecf6a;
+}
+
+#colone3 .button{
+    background-color: #82caaf;
+}
+
+@media (max-width:992px)
+{
+    .row #colone3
+    {
+        margin-top: 15px;
+        width: 94%;
+        background-clip: padding-box;
+        padding: 0px 0px 30px 30px;
+    }
+    .row #colone2
+    {
+        width: 45%;
+        background-clip: padding-box;
+        padding: 0px 0px 30px 30px;
+        margin-right: auto;
+        margin-left: 15px;
+    }
+    .row #colone1
+    {
+        width: 45%;
+        background-clip: padding-box;
+        padding: 0px 0px 30px 30px;
+        margin-right: auto;
+        margin-right: 15px;
+    }
+}
+
+@media(max-width:762px)
+{
+    .row #colone3
+    {
+        margin: auto;
+        margin-top: 15px;
+        width: 70%;
+        background-clip: padding-box;
+        padding: 0px 0px 30px 30px;
+    }
+    .row #colone2
+    {
+        width: 70%;
+        margin: auto;
+        background-clip: padding-box;
+        padding: 0px 0px 30px 30px;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+    .row #colone1
+    {
+        margin: auto;
+        width: 70%;
+        background-clip: padding-box;
+        padding: 0px 0px 30px 30px;
+    }
+}
