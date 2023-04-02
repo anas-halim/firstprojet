@@ -1,3 +1,140 @@
-<div class="row">
-                    <div>hello my name lcus caskets 
-                    commennt taller vous </div>
+{
+    box-sizing : border-box
+}
+
+h1 {
+      font-size: 27px;
+      font-family: Georgia serif;
+      text-align: center;
+      color: rgb(0,0,0);
+      margin-bottom: 30px;
+
+}
+
+p{
+    padding: 15px 5px 0px 5px;
+    font-family: Georgia sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+
+.section {
+    background-color: rgb(150,150,150);
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 3px;
+    text-align: justify;
+    position: relative;
+}
+
+span {
+       font-size:20px;
+       width: 150px;
+       border : 1px sold black;
+       font-weight: bold;
+       text-align: center;
+      float:  right ; top : 0; right:0 ; margin 0;
+       position: absolute;
+
+
+}
+#pp1 { 
+       background-color: rgb(250,150,150);
+       color : rgb(0,0,0)
+
+}
+#pp2  { 
+       background-color: rgb(250,0,0);
+       color : rgb(250,250,250);
+
+}
+ #pp3 { 
+    background-color: rgb(200,200,100);
+       color : rgb(0,0,0)
+ }
+}
+
+.row { 
+        width: 100%;
+}
+
+@media (min-width: 992px) {
+    .col-md-4 {
+        width: 33.33%;
+        float: left;
+    }
+    
+}
+@media (min-width: 768px)and(max-width:991px)  {
+
+    .col-md-6{
+        
+        width: 45% ;
+margin-right: auto;
+    }
+    .col-md-6{  
+        
+        width: 45%;
+margin-right: auto;
+}
+.col-md-12 {
+    width: 90%;
+    margin-right: auto;
+
+}
+   
+}
+@media (max-width: 767px) {
+    .col-sx-12 {
+        
+        width: 100%;
+        float: left;
+
+    }
+
+    
+}
+
+
+<div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:410-602-5008">
+                <span>410-602-5008</span></a><div>* We Deliver</div>
+            </li>
+          </ul><!-- #nav-list -->
+        
+
+
+
+
+
+
+
+
+         <div id="collapse-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right" >
+                <li>
+                    <a href="#" class="hidden-xs"> Dota 2 </a>
+                </li>
+                <li>
+                    <a href="#" class="hidden-xs"> Overwatch </a>
+                </li>
+                <li>
+                    <a href="#" class="hidden-xs"> Valorent</a>
+                </li>
+            </ul>
+        </div>
