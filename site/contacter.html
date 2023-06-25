@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="css/contacter.css">
+<html>
+<head>
+    <title>Formulaire de contact</title>
+</head>
+<header>
+    <iframe src="indexnav.html" width="100%" height="175px" frameborder="0"></iframe>
+</header>
+<body>
+    <div class="contact-container">
+        <h2>Nous contacter</h2>
+        <form action="traitement.php" method="POST">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="commentaire">Commentaire :</label>
+            <textarea id="commentaire" name="commentaire" rows="5" cols="30" required></textarea>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+</body>
+<footer>
+    <iframe src="footer.html" width="100%" height="312px" frameborder="0"></iframe>
+  </footer>
+</html>
